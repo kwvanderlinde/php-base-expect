@@ -1,0 +1,11 @@
+# Composer files
+vendor/
+composer.lock
+
+# Various temporary files
+*~
+\#*\#
+.#*
+
+# Emacs files
+*_flymake.*

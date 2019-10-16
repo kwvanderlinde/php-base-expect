@@ -1,0 +1,27 @@
+{
+	"name": "php-base/expect",
+	"type": "library",
+	"description": "PHP library for expect-style assertions",
+	"keywords": [ "PHP" ],
+	"homepage": "https://github.com/kwvanderlinde/php-base-expect",
+	"license": "BSD-2-Clause",
+	"authors": [
+		{
+			"name": "Kenneth VanderLinde",
+			"email": "kwvanderlinde@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.1",
+		"php-base/exceptions": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Base\\Expect\\": "src/"
+		},
+		"files": [
+			"functions.php"
+		]
+	}
+}
